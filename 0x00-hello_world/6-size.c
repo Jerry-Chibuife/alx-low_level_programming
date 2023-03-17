@@ -6,7 +6,7 @@ int main(void)
 	printf("Size of an int: %2d byte(s)\n", sizeof(short int));
 	printf("Size of a long int: %2d byte(s)\n", sizeof(long int));
 	printf("Size of a long long int: %2d byte(s)\n", sizeof(long long int));
-	printf("Size of a float: %2d byte(s)\n", sizeof(float));
+	printf("Size of a float:%2d byte(s)\n", sizeof(float));
 	fprintf(stderr,"%s", "[Anything]");
 	return (0);
 }
