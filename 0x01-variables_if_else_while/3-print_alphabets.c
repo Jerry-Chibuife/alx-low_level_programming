@@ -3,7 +3,7 @@
 
 /**
  * main - Entry point of program
- * Description: Prints all lower and 
+ * Description: Prints all lower and
  * uppercase letters
  * Return: 0 for successful program exit
  */
