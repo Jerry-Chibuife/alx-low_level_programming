@@ -5,6 +5,10 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
+/**
+ *main: this is the entry point of the project
+ *desc: generates a random number and checks if it is positive, negative or zero
+*/
 int main(void)
 {
 	int n;
