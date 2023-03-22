@@ -1,4 +1,4 @@
-#include <main.h>
+#include "main.h"
 #include <ctype.h>
 
 /**
@@ -6,13 +6,6 @@
  * print_alphabet - prints all alphabet in lowercase
  * Return: 0 for successful program exit
  */
-void print_alphabet(void);
-int main(void)
-{
-	print_alphabet();
-	return (0);
-}
-
 void print_alphabet(void)
 {
 	int x;
@@ -22,4 +15,10 @@ void print_alphabet(void)
 		_putchar(tolower(x));
 	}
 	_putchar('\n');
+}
+void print_alphabet(void);
+int main(void)
+{
+	print_alphabet();
+	return (0);
 }
